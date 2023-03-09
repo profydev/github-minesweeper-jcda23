@@ -1,3 +1,11 @@
 {
-  "commands": []
-}
+  "commands": [
+    {
+      "command": "git",
+      "args": [
+        "clone",
+        "checkout -b nama branch",
+        "git commit -m",
+        "git push"
+      ]
+    }
