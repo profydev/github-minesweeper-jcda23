@@ -1,3 +1,39 @@
 {
-  "commands": []
+  "commands": [
+    {
+      "command": "git",
+      "args": [
+        "checkout",
+        "-b",
+        "new-branch"
+      ]
+    },
+    {
+      "command": "git",
+      "args": [
+        "status",
+        "."
+      ]
+    },
+    {
+      "command": "git",
+      "args": [
+        "add"
+      ]
+    },
+    {
+      "command": "git",
+      "args": [
+        "commit",
+        "-m",
+        "message"
+      ]
+    },
+    {
+      "command": "git",
+      "args": [
+        "push"
+      ]
+    }
+  ]
 }
