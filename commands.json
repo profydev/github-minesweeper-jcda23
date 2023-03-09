@@ -3,10 +3,30 @@
     {
       "command": "git",
       "args": [
-        "clone",
-        "checkout -b nama branch",
-        "git commit -m",
-        "git push"
+        "checkout",
+        "-b",
+        "nueva-rama"
+      ]
+    },
+    {
+      "command": "git",
+      "args": [
+        "status",
+        "."
+      ]
+    },
+    {
+      "command": "git",
+      "args": [
+        "add"
+      ]
+    },
+    {
+      "command": "git",
+      "args": [
+        "commit",
+        "-m",
+        "message"
       ]
     }
   ]
